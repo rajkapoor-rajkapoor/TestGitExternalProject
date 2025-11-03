@@ -7,3 +7,11 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
+- name: TechnologyConnector
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.testgitexternal.ftp.connections:FTPConnection
+  packages:
+  - name: TestGitExternalProject
+    version: "1.0"
